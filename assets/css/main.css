@@ -2607,17 +2607,20 @@ section,
 --------------------------------------------------------------*/
 .blog-hero {
   padding: 0;
+  margin-top: 40px;
 }
 
 .blog-hero .blog-hero-slider {
   position: relative;
   overflow: hidden;
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
 .blog-hero .blog-hero-item {
   position: relative;
-  height: 40vh;
-  min-height: 450px;
+  height: 35vh;
+  min-height: 360px;
 }
 
 .blog-hero .blog-hero-item img {
